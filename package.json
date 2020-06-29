@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "Roshil",
   "scripts": {
-    "start": "cross-env NODE_ENV=production node app",
-    "dev":"cross-env NODE_ENV=development nodemon app"
+    "start": "node app"
   },
   "license": "ISC",
   "dependencies": {
