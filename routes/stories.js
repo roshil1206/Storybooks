@@ -160,4 +160,5 @@ router.get('/user/:userId', ensureAuth, async (req,res) => {
         res.render('error/500');
       }
 })
+
 module.exports = router;
